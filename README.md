@@ -78,6 +78,15 @@ Requires Python 3.9+
 # Clone the repository
 git clone https://github.com/your-repo/agri-scan-ai.git
 
+# Create a virtual environment
+python -m venv .venv
+
+# Activate the virtual environment
+# On Windows:
+.venv\Scripts\activate
+# On MacOS/Linux:
+source .venv/bin/activate
+
 # Install dependencies
 pip install -r requirements.txt
 ```
